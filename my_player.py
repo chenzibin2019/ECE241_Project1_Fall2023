@@ -1,5 +1,5 @@
 from song import Song
-from binary_search_tree import TreeNode, BinarySearchTree
+from binary_search_tree import BinarySearchTree
 from stack import Stack
 
 

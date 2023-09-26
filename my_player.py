@@ -5,7 +5,7 @@ from stack import Stack
 
 
 class MyPlayer:
-    def __int__(self):
+    def __init__(self):
         """
 
         :return:

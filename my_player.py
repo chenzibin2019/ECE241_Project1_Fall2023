@@ -78,13 +78,13 @@ class MyPlayer:
         :return:
         """
         steps = 0  # Number of steps used to search for the song
-        song = None  # The song
+        the_song = None  # The song
 
         # TODO: Search for the song, Note, you are NOT allowed to use self.yearMemory in this method
 
         # Do not modify the return line, assign proper values for
         # steps and song above
-        return {"steps": steps, "song": song}
+        return {"steps": steps, "song": the_song}
 
 
 # NO MORE TESTING CODE BELOW!

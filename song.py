@@ -1,5 +1,5 @@
 class Song:
-    def __int__(self, artist_name, song_title, song_id, duration, year):
+    def __init__(self, artist_name: str, song_title: str, song_id: str, duration: float, year: int):
         """
 
         :param artist_name:
@@ -25,5 +25,3 @@ class Song:
         :return:
         """
         pass
-
-    

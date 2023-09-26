@@ -1,6 +1,7 @@
-from my_player import MyPlayer
+from unittest import TestCase
 
-player = MyPlayer()
 
-if __name__ == "__main__":
+class TestMyPlayer(TestCase):
     pass
+
+

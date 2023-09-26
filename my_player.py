@@ -13,6 +13,8 @@ class MyPlayer:
         self.songList = []
         self.is_sorted = False
         self.yearMemory = None
+        self.playHistory = None
+        # TODO: Modify the above attribute for Task 6
 
     def loadLibrary(self, filename):
         """
@@ -38,7 +40,7 @@ class MyPlayer:
         """
         pass
 
-    def showLastPlayed(self):
+    def getLastPlayed(self):
         """
 
         :return:

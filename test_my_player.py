@@ -5,7 +5,8 @@ player = MyPlayer()
 
 if __name__ == "__main__":
     # Test1: read from file
-    player.loadLibrary("subset_songs.txt")
+    player.loadLibrary("subset_songs.txt")   # Change to the following line when you are confident with your code.
+    # player.loadLibrary("all_songs.txt")
     print("Loaded %d songs from file" % len(player.songList))
     print("  the first one of which is:", str(player.songList[0]))
 
